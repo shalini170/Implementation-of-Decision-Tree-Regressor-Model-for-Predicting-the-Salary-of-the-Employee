@@ -58,7 +58,11 @@ plt.show()
 ```
 
 ## Output:
-"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-10-16 054115.png"
+'''
+![Screenshot 2024-10-16 054115](https://github.com/user-attachments/assets/49c9f177-c7d1-4f52-b5e2-c189bda1cd72)
+
+![Screenshot 2024-10-16 054145](https://github.com/user-attachments/assets/126822b0-78c1-4b1f-b53c-9bfcaf0cb9b6)
+
 
 
 ## Result:
