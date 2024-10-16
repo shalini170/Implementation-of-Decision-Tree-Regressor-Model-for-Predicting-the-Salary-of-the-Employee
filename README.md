@@ -19,10 +19,15 @@ STEP 4: Preprocess the categorical data. Use LabelEncoder to convert the "Positi
 STEP 5: Define the feature matrix (X) by selecting the relevant columns (e.g., Position, Level), and set the target variable (Y) as the "Salary" column.
 
 STEP 6: Split the dataset into training and testing sets using train_test_split() with a test size of 20%.
+
 STEP 7: Initialize the Decision Tree Regressor and fit the model to the training data (x_train, y_train).
+
 STEP 8: Predict the target values on the testing set (x_test) using dt.predict().
+
 STEP 9: Calculate the Mean Squared Error (MSE) using metrics.mean_squared_error() and the R-squared score (r2_score()) to evaluate the model's performance.
+
 STEP 10: Use the trained model to predict the salary of an employee with specific input features (dt.predict([[5,6]])).
+
 STEP 11: End
 
 ## Program:
