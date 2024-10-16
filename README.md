@@ -9,10 +9,15 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 
 ## Algorithm
 STEP 1: Start
+
 STEP 2: Load the salary dataset into a Pandas DataFrame and inspect the first few rows using data.head().
+
 STEP 3: Check the dataset for missing values using data.isnull().sum() and inspect the data structure using data.info().
+
 STEP 4: Preprocess the categorical data. Use LabelEncoder to convert the "Position" column into numerical values.
+
 STEP 5: Define the feature matrix (X) by selecting the relevant columns (e.g., Position, Level), and set the target variable (Y) as the "Salary" column.
+
 STEP 6: Split the dataset into training and testing sets using train_test_split() with a test size of 20%.
 STEP 7: Initialize the Decision Tree Regressor and fit the model to the training data (x_train, y_train).
 STEP 8: Predict the target values on the testing set (x_test) using dt.predict().
